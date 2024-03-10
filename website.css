@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(222, 235, 235);
+    font-family: sans-serif;
+    
+    
+}
+
+.title{
+    color: rgb(84, 74, 65);
+}
+
+#temperature{
+    font-size: large;
+    color: rgb(84, 74, 65);
+}
+
+#temp{
+    height: 27px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+    /*border-color: rgb(19, 237, 200);
+    border-style: solid; */
+}
+
+.enter-temp{
+    display: inline-block;
+}
+
+/* BUTTONS*/
+
+#celsius{
+    height: 40px;
+    width: 100px;
+
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(25, 161, 239);
+
+    cursor: pointer;
+  
+}
+#celsius:hover{
+
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: rgb(95, 189, 243);
+}
+
+#fahrenheit{
+    height: 40px;
+    width: 100px;
+
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(168, 110, 18);
+
+    cursor: pointer;
+    margin-left: 7px ;
+}
+#fahrenheit:hover{
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: rgb(220, 173, 97);
+}
+
+
+#kelvin{
+    height: 40px;
+    width: 100px;
+
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(243, 91, 20);
+
+    cursor: pointer;
+    margin-left: 7px ;
+}
+#kelvin:hover{
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: rgb(247, 143, 95);
+
+}
+
+
+
